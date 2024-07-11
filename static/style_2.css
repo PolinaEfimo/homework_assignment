@@ -1,0 +1,36 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    height: 24px;
+    color: #FFD700;
+}
+.aligncenter {
+    text-align: center;
+}
+body {
+    background-color: antiquewhite;
+}
+footer {
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+   
+}
+.btn {
+    
+    padding: 10px 20px;
+    margin: 5px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    cursor: pointer;
+    position:relative;
+    left: 25%;
+    
+}
+.btn:active {
+    transform-origin: 0%;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(2px);
+}

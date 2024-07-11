@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% extends 'welcome.html' %} 
+    <title>{% block title %}Пользователь{% endblock %}</title>
+</head>
+<body>
+    {% block content %}<h1>Добро пожаловать, пользователь!</h1>
+    {% endblock %}
+    {% include 'button.html' %} 
+
+    
+</body>
+</html>
